@@ -4,7 +4,7 @@ import BlueButton from "./button";
 import baivabImg from "../assets/baivab.png";
 const Hero = () => {
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto px-4 mt-10 bg-[#F5FCFF] rounded-xl">
       <div className="flex flex-row basis-1/2 justify-center items-center gap-10">
         <div className="flex flex-col">
           <h3 className="text-xl font-bold">Hello, It's me</h3>
