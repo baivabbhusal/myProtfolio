@@ -1,7 +1,7 @@
 import { FaFacebook, FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 const SocialIcon = () => {
   return (
-    <div className="flex space-x-4 text-2xl">
+    <div className="flex justify-center md:space-x-4 text-2xl ">
       <a href="https://www.facebook.com/baivab.bhusal" target="_blank" rel="noopener noreferrer">
         <FaFacebook className="text-blue-600 transition hover:text-black" size={40}/>
       </a>

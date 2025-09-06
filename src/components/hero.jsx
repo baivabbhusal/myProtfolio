@@ -1,25 +1,25 @@
 import React from "react";
 import SocialIcon from "./socials";
 import BlueButton from "./button";
-import baivabImg from "../assets/myBarcaLeft.png";
+import baivabImg from "../assets/myBarcaRight.png";
 const Hero = () => {
   return (
-    <div className="container mx-auto px-4 mt-10 bg-[#F5FCFF] rounded-xl">
-      <div className="flex flex-col basis-1/2 md:flex-row items-center mx-10">
+    <div className="container mx-auto px-4 mt-10 rounded-xl">
+      <div className="flex flex-col w-full md:flex-row items-center mx-10 rounded-full">
               <div className="w-1/2 h-auto">
           <img
             src={baivabImg}
             alt="This is image"
-            width={300}
-            height={300}
-            className="w-full h-full object-contain rounded-3xl p-4"
+            width={200}
+            height={200}
+            className="w-full md:w-2/3 h-auto object-contain rounded-3xl p-4"
           ></img>
         </div>
         
-        <div className="flex flex-col">
+        <div className="w-full text-center md:flex flex-col w-1/2">
           <h3 className="text-xl font-bold">Hi,✋ I'm</h3>
-          <h1 className="font-bold text-5xl text-[#004D98]">Baivab Bhusal</h1>
-          <h1 className="font-bold text-2xl text-[#A50044]">
+          <h1 className="font-bold text-5xl text-primary">Baivab Bhusal</h1>
+          <h1 className="font-bold text-2xl text-secondary">
             And I'm Frontend Developer
           </h1>
           <p className="text-lg mt-4 leading-relaxed">
