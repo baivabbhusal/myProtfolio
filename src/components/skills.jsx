@@ -6,8 +6,8 @@ import { FaC } from 'react-icons/fa6'
 const Skills = () => {
   return (
     <div className='container mx-auto p-4'>
-        <h1 className='text-5xl font-bold text-center mb-8'>Skills</h1>
-        <div className='flex flex-row justify-between'>
+        <h1 className='text-5xl text-[#A50044] font-bold text-center mb-8'>Skills</h1>
+        <div className='flex flex-col md:flex-row gap-5 md:justify-between'>
           <div className='grid grid-cols-4  gap-5 pt-5'>
             <FaHtml5 className='text-[#e34c26] text-7xl'/>
             <FaCss3 className='text-[#264de4] text-7xl'/>

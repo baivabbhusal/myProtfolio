@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div id="contact" className="container mx-auto p-6 mt-10 rounded-2xl shadow">
-      <h1 className="text-5xl font-bold text-center mb-8">Contact Me</h1>
+      <h1 className="text-5xl text-[#A50044] font-bold text-center mb-8">Contact Me</h1>
 
       <form className="space-y-6">
         {/* First + Last Name in a row */}

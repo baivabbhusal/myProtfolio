@@ -1,15 +1,25 @@
 import React from "react";
 import SocialIcon from "./socials";
 import BlueButton from "./button";
-import baivabImg from "../assets/baivab.png";
+import baivabImg from "../assets/myBarcaLeft.png";
 const Hero = () => {
   return (
     <div className="container mx-auto px-4 mt-10 bg-[#F5FCFF] rounded-xl">
-      <div className="flex flex-row basis-1/2 justify-center items-center gap-10">
+      <div className="flex flex-col basis-1/2 md:flex-row items-center mx-10">
+              <div className="w-1/2 h-auto">
+          <img
+            src={baivabImg}
+            alt="This is image"
+            width={300}
+            height={300}
+            className="w-full h-full object-contain rounded-3xl p-4"
+          ></img>
+        </div>
+        
         <div className="flex flex-col">
-          <h3 className="text-xl font-bold">Hello, It's me</h3>
-          <h1 className="font-bold text-5xl text-[#545C6A]">Baivab Bhusal</h1>
-          <h1 className="font-bold text-5xl text-[#B26A8E]">
+          <h3 className="text-xl font-bold">Hi,✋ I'm</h3>
+          <h1 className="font-bold text-5xl text-[#004D98]">Baivab Bhusal</h1>
+          <h1 className="font-bold text-2xl text-[#A50044]">
             And I'm Frontend Developer
           </h1>
           <p className="text-lg mt-4 leading-relaxed">
@@ -21,19 +31,11 @@ const Hero = () => {
             <SocialIcon />
           </div>
           <div>
-            <BlueButton props={{ buttonName: "Download CV" }} />
+            <BlueButton props={{ buttonName: "Download CV" }}/>
           </div>
         </div>
 
-        <div className="basis-1/2">
-          <img
-            src={baivabImg}
-            alt="This is image"
-            width={400}
-            height={300}
-            className="h-[88vh] object-cover rounded-lg"
-          ></img>
-        </div>
+
       </div>
     </div>
   );

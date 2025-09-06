@@ -1,14 +1,14 @@
 import React from 'react'
-import collegeImg from "../assets/college-pic.jpg"
+import collegeImg from "../assets/baivab.png"
 
 const About = () => {
   return (
     <div id="about" className="container mx-auto px-4 py-16 bg-slate-100 rounded-2xl mt-12">
-      <h1 className="text-5xl font-bold text-center text-[#545C6A] mb-12">
+      <h1 className="text-5xl font-bold text-center text-[#A50044] mb-12">
         About <span className="text-[#545C6A]">Me</span>
       </h1>
 
-      <div className="flex flex-col basis-1/2 md:flex-row items-center md:items-start gap-10">
+      <div className="flex flex-col basis-1/2 md:flex-row items-center md:items-start  gap-10">
         {/* Image */}
         <div className="flex justify-center md:justify-start md:basis-1/2">
           <img
