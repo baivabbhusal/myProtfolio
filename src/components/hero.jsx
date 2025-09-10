@@ -1,5 +1,4 @@
-import React from "react";
-import Typed from "react-typed";
+import { ReactTyped } from "react-typed";
 import SocialIcon from "./socials";
 import BlueButton from "./button";
 import baivabImg from "../assets/myBarcaRight.png";
@@ -20,21 +19,19 @@ const Hero = () => {
         <div className="w-full text-center md:flex flex-col w-1/2">
           <h3 className="text-xl font-bold">Hi,✋ I'm</h3>
           <h1 className="font-bold text-5xl text-primary">Baivab Bhusal</h1>
-          <div className="flex items-center justify-center h-screen bg-gray-900">
-            <h1 className="text-3xl md:text-5xl font-mono text-white">
-              I am a{" "}
-              <Typed
-                strings={[
-                  "Frontend Developer",
-                  "MERN Stack Developer",
-                  "Designer",
-                ]}
-                typeSpeed={70}
-                backSpeed={50}
-                loop
-              />
-            </h1>
-          </div>
+           <h1 className="text-6xl font-bold font-mono text-secondary">
+        I am a{" "}
+        <ReactTyped
+          strings={[
+            "Frontend Developer",
+            "MERN Stack Developer",
+            "Designer",
+          ]}
+          typeSpeed={100}
+          backSpeed={90}
+          loop
+        />
+      </h1>
           <p className="text-lg mt-4 leading-relaxed">
             I design and build modern, responsive web applications using React,
             Next.js, and Tailwind CSS. Passionate about frontend development, I
