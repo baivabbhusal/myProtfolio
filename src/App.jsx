@@ -3,6 +3,7 @@ import Hero from './components/hero'
 import About from './components/about'
 import Contact from './components/contact'
 import Skills from './components/skills'
+import Projects from './components/projects'
 
 const App = () => {
   return (
@@ -11,6 +12,8 @@ const App = () => {
     <Hero />
     <About />
     <Skills />
+    <Projects />
+  
     <Contact />
     
     </>
