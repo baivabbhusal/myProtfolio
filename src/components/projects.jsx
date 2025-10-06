@@ -9,6 +9,9 @@ const Projects = () => {
         <div className="border-1xl">
           Glacier clothing Ecommerce site
         </div>
+        <div className="border-1xl">
+          Gender Classification Using ML
+          </div>
 
       </div>
       </div>
