@@ -7,10 +7,10 @@ const Projects = () => {
       <h1 className='text-5xl text-secondary font-bold text-center mb-8'>Projects</h1>
       <div className='grid md:grid-cols-3 gap-2.5'>
         <div className="border-1xl">
-          <h4>Glacier clothing Ecommerce site</h4>
+          <h4 className='text-xl font-bold'>Glacier clothing Ecommerce site</h4>
         </div>
         <div className="border-1xl">
-          <h4>Gender Classification Using ML</h4>
+          <h4 className='text-xl font-bold'>Gender Classification Using ML</h4>
           </div>
 
       </div>
