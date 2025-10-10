@@ -1,4 +1,5 @@
 import React from 'react'
+import cloths from "../assets/cloths.png"
 
 const Projects = () => {
   return (
@@ -8,6 +9,7 @@ const Projects = () => {
       <div className='grid md:grid-cols-3 gap-2.5'>
         <div className="border-1xl">
           <h4 className='text-xl font-bold'>Glacier clothing Ecommerce site</h4>
+          <img src={cloths} width={300}></img>
         </div>
         <div className="border-1xl">
           <h4 className='text-xl font-bold'>Gender Classification Using ML</h4>
