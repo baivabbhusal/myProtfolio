@@ -1,5 +1,6 @@
 import React from 'react'
 import cloths from "../assets/cloths.png"
+import gender from "../assets/gender.png"
 
 const Projects = () => {
   return (
@@ -12,6 +13,7 @@ const Projects = () => {
           <img src={cloths} width={300}></img>
         </div>
         <div className="border-1xl">
+        <img src={gender} width={300}></img>
           <h4 className='text-xl font-bold'>Gender Classification Using ML</h4>
           </div>
 
