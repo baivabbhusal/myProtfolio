@@ -11,7 +11,14 @@ const Hero = () => {
             src={baivabImg}
             width="80"
             height="80"
-            style={{ borderRadius: "50%", objectFit: "cover", background:"[#2F4F4F]"}}
+            style={{
+              borderRadius: "30%",
+              border:"2px solid #000000",
+              padding:"2px",
+              backgroundColor:"#ffffff",
+              objectFit: "cover",
+              background: "[#2F4F4F]",
+            }}
             alt="Baivab"
           />
         </div>
@@ -21,20 +28,20 @@ const Hero = () => {
           <h1 className="font-bold text-6xl text-black mb-5 font-germania">
             Baivab Bhusal
           </h1>
-          <h1 className="text-6xl font-bold font-mono text-slate-500">
-            I am a{" "}
+          <h1 className="text-6xl font-bold font-mono text-secondary">
+            I'm a{" "}
             <ReactTyped
               strings={[
                 "Frontend Developer",
                 "MERN Stack Developer",
-                "Designer",
+                "B.Sc. CSIT Student"
               ]}
               typeSpeed={100}
               backSpeed={90}
               loop
             />
           </h1>
-          <p className="text-lg mt-4 leading-relaxed">
+          <p className="text-lg mt-4 leading-relaxed text-slate-500">
             I design and build modern, responsive web applications using React,
             Next.js, and Tailwind CSS. Passionate about frontend development, I
             focus on creating smooth UI/UX experiences.

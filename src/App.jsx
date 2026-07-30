@@ -1,9 +1,9 @@
 import Header from './components/header'
 import Hero from './components/hero'
-import About from './components/about'
-import Contact from './components/contact'
-import Skills from './components/skills'
-import Projects from './components/projects'
+import About from './Pages/about'
+import Contact from './Pages/contact'
+import Skills from './Pages/skills'
+import Projects from './Pages/projects'
 
 const App = () => {
   return (

@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <header className="text-[#00000]">
-          <div className=" container mx-auto my-2 rounded-full px-4 border-2 border-slate-400">
+          <div className=" sticky container mx-auto my-2 rounded-full px-4 border-2 border-slate-400">
             <div className="flex flex-row justify-between items-center" id="header">
               <div>
                 <a href="/header">
