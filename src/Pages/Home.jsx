@@ -1,14 +1,14 @@
 import React from 'react'
-import Hero from '../components/hero'
-import About from '../components/about'
-import Skills from '../components/skills'
-import Projects from '../components/projects'
-import Contact from '../components/contact'
-import Header from '../components/header'
+import Hero from '../components/Hero.jsx'
+import About from '../components/About.jsx'
+import Skills from '../components/Skills.jsx'
+import Projects from '../components/Projects.jsx'
+import Contact from '../components/Contact.jsx'
+import Header from '../components/Header.jsx'
 const Home = () => {
   return (
         <>
-        <Header />
+    <Header />
     <Hero />
     <About />
     <Skills />
