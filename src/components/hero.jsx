@@ -1,7 +1,7 @@
 import { ReactTyped } from "react-typed";
 import SocialIcon from "./socials";
-import BlueButton from "./button";
 import baivabImg from "../assets/myBarcaRight.png";
+import ResumeButton from "./ResumeButton";
 const Hero = () => {
   return (
     <div className="container mx-auto px-4 mt-10 rounded-xl">
@@ -28,8 +28,8 @@ const Hero = () => {
           <h1 className="font-bold text-6xl text-black mb-5 font-germania">
             Baivab Bhusal
           </h1>
-          <h1 className="text-6xl font-bold font-mono text-secondary">
-            I'm a{" "}
+          <h1 className="text-6xl font-bold font-mono text-primary">
+            {" "}
             <ReactTyped
               strings={[
                 "Frontend Developer",
@@ -50,7 +50,7 @@ const Hero = () => {
             <SocialIcon />
           </div>
           <div>
-            <BlueButton props={{ buttonName: "Download CV" }} />
+            <ResumeButton />
           </div>
         </div>
       </div>
