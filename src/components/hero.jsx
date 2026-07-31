@@ -1,5 +1,5 @@
 import { ReactTyped } from "react-typed";
-import SocialIcon from "./socials";
+import SocialIcon from "./Socials";
 import baivabImg from "../assets/myBarcaRight.png";
 import ResumeButton from "./ResumeButton";
 const Hero = () => {
