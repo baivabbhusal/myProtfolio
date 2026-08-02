@@ -24,11 +24,11 @@ const Hero = () => {
         </div>
 
         <div className="text-center md:flex flex-col w-1/2">
-          <h3 className="text-6xl font-bold my-5 font-germania">Hey, I'm</h3>
-          <h1 className="font-bold text-6xl text-black mb-5 font-germania">
+          <h3 className="text-6xl font-bold my-5 font-germania md:text-4xl md:my-2">Hey, I'm</h3>
+          <h1 className="font-bold text-6xl text-black mb-5 font-germania  md:text-4xl">
             Baivab Bhusal
           </h1>
-          <h1 className="text-6xl font-bold font-mono text-primary">
+          <h1 className="text-6xl font-bold font-mono text-primary  md:text-4xl">
             {" "}
             <ReactTyped
               strings={[
@@ -41,7 +41,7 @@ const Hero = () => {
               loop
             />
           </h1>
-          <p className="text-lg mt-4 leading-relaxed text-slate-500">
+          <p className="text-lg mt-4 leading-relaxed text-slate-500  md:text-small">
             I design and build modern, responsive web applications using React,
             Next.js, and Tailwind CSS. Passionate about frontend development, I
             focus on creating smooth UI/UX experiences.

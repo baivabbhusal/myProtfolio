@@ -4,5 +4,15 @@
     --color-primary:#004D98;
     --color-secondary:#A50044;
     --font-germania: "Germania One", system-ui;
+  --animate-marquee: marquee 20s linear infinite;
 
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-50%);
+    }
+  }
 }
