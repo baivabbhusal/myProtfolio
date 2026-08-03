@@ -4,8 +4,8 @@ import collegeImg from "../assets/baivab.png"
 const About = () => {
   return (
     <div id="about" className="container mx-auto px-4 py-16 rounded-2xl mt-12">
-      <h1 className="text-5xl font-bold text-center text-[#A50044] mb-12">
-        About <span className="text-[#545C6A]">Me</span>
+      <h1 className="text-3xl font-bold text-center font-germania text-primary mb-12 ">
+        About Me
       </h1>
 
       <div className="flex flex-col basis-1/2 md:flex-row items-center md:items-start justify-between">
@@ -20,7 +20,7 @@ const About = () => {
 
         {/* Text */}
         <div className="md:basis-1/2 text-center md:text-left">
-          <h1 className="text-4xl font-bold mb-4 text-primary">Web Developer</h1>
+          <h1 className="text-4xl font-bold mb-4 text-black font-germania">Frontend Developer</h1>
           <p className="text-2xl leading-relaxed w-full">
             A highly energetic, enthusiastic, and dedicated IT student with a strong
             background in Science, IT. I possess excellent leadership, planning, and

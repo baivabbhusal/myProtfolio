@@ -3,11 +3,11 @@ import React from 'react'
 const Header = () => {
   return (
     <header className="text-[#00000]">
-          <div className=" sticky container mx-auto my-2 rounded-full px-4 border-2 border-slate-400">
+          <div className=" sticky container mx-auto my-2 rounded-xl px-4 border-2 border-slate-400">
             <div className="flex flex-row justify-between items-center" id="header">
               <div>
                 <a href="/header">
-                  <h1 className="text-3xl text-[#1E52B3] font-semibold ">
+                  <h1 className="text-3xl text-[#1E52B3] font-semibold font-germania">
                     &lt; <span className="text-[#1E52B3]">BB</span> /&gt;
                   </h1>
                 </a>

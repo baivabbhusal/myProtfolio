@@ -18,9 +18,6 @@ const Skills = () => {
             <FaReact className='text-[#61DBFB] text-7xl'/>
             
           </div>
-            <div className='shadow md:w-1/2 show'>
-                <img src={skillsPic} width={400} alt="This is skills picture" className='w-full'></img>
-            </div>
         </div>
 
     </div>
