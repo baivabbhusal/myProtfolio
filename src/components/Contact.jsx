@@ -2,12 +2,12 @@ import React, { useState } from "react";
 
 const Contact = () => {
   return (
-    <div id="contact" className="container mx-auto p-6 mt-10 rounded-2xl shadow">
-      <h1 className="text-5xl text-[#A50044] font-bold text-center mb-8">Contact Me</h1>
+    <div id="contact" className="container mx-auto p-6 mt-10 rounded-2xl bg-slate-200 shadow">
+      <h1 className="text-5xl text-black font-germania font-bold text-center mb-8 underline">Let's Work Together</h1>
 
       <form className="space-y-6">
         {/* First + Last Name in a row */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 gap-6">
           <div>
             <label htmlFor="firstName" className="block font-medium text-lg">
               First Name
@@ -16,19 +16,8 @@ const Contact = () => {
               type="text"
               id="firstName"
               required
-              className="w-full p-2 border rounded-xl focus:outline-none focus:ring-2"
-            />
-          </div>
-
-          <div>
-            <label htmlFor="lastName" className="block font-medium text-lg">
-              Last Name
-            </label>
-            <input
-              type="text"
-              id="lastName"
-              required
-              className="w-full p-2 border rounded-xl focus:outline-none focus:ring-2"
+              className="w-full p-2 border border-x-0"
+              placeholder='Ram Bahadur'
             />
           </div>
         </div>
@@ -42,7 +31,8 @@ const Contact = () => {
             type="email"
             id="email"
             required
-            className="w-full p-2 border rounded-xl focus:outline-none focus:ring-2"
+            className="w-full p-2 border border-x-0"
+            placeholder="bahadur@gmail.com"
           />
         </div>
 
@@ -54,7 +44,8 @@ const Contact = () => {
           <textarea
             id="message"
             rows="5"
-            className="w-full p-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-2 border border-x-0"
+            placeholder="Can we work together in Health care project?"
           ></textarea>
         </div>
 

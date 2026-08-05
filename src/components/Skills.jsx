@@ -17,7 +17,7 @@ import { DiMongodb } from "react-icons/di";
 const Skills = () => {
   return (
     <div className="container mx-auto p-2">
-      <h1 className="text-3xl text-primary font-bold text-center mb-6 font-germania">
+      <h1 className="text-3xl text-primary font-bold text-center mb-6 font-germania underline">
         Skills
       </h1>
       <div className="flex flex-col md:flex-row gap-5 md:justify-between">

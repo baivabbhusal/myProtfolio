@@ -4,7 +4,7 @@ import collegeImg from "../assets/baivab.png"
 const About = () => {
   return (
     <div id="about" className="container mx-auto px-4 py-16 rounded-2xl mt-12">
-      <h1 className="text-3xl font-bold text-center font-germania text-primary mb-8 ">
+      <h1 className="text-3xl font-bold text-center font-germania text-primary mb-8 underline">
         About Me
       </h1>
 
