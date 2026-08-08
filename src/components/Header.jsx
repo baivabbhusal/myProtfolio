@@ -1,10 +1,12 @@
 import React from 'react'
+import { FaUserMinus } from 'react-icons/fa'
+import { FiMenu } from 'react-icons/fi'
 
 const Header = () => {
   return (
     <header className="text-[#00000]">
-          <div className=" sticky container mx-auto my-2 rounded-xl px-4 border-2 border-slate-400">
-            <div className="flex flex-row justify-between items-center" id="header">
+          <div className="container mx-auto my-2 rounded-xl px-4 ">
+            <div className="flex flex-row justify-between items-center rounded-xl shadow-2xl px-5" id="header">
               <div>
                 <a href="/header">
                   <h1 className="text-3xl text-[#1E52B3] font-semibold font-germania">
@@ -12,7 +14,11 @@ const Header = () => {
                   </h1>
                 </a>
               </div>
-              <div className="flex flex-row justify-between items-center text-black">
+              <button className='md:hidden'>
+                <FiMenu />
+              </button>
+
+              <nav className="hidden md:flex flex-row justify-between items-center text-black">
                 <ul className="hidden md:flex flex-row gap-4">
                   <li className="hover:underline">
                     <a href="#about">About</a>
@@ -27,7 +33,7 @@ const Header = () => {
                     <a href="#contact">Contact</a>
                   </li>
                 </ul>
-              </div>
+              </nav>
             </div>
           </div>
         </header>
